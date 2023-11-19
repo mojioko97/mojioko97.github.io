@@ -1,0 +1,22 @@
+.lead__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 11.56%;
+    padding-right: 11.56%;
+    aspect-ratio: 16/10;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__column{
+        padding-left: 4.69%;
+        padding-right: 4.69%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .lead__column{
+        padding: 0;
+    }
+}

@@ -1,0 +1,27 @@
+.caption {
+    font-size: 10px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 8px;
+    padding-left: 11.56%;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+    .caption{
+        padding-left: 4.69%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .caption{
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .caption{
+        padding-left: 16px;
+    }
+}

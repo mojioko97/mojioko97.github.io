@@ -1,0 +1,11 @@
+.place__link-container {
+    gap: 12px;
+    align-self: end;
+}
+
+@media (max-width: 631px) {
+    .place__link-container {
+        align-self: start;
+        padding-left: 16px;
+    }
+}
