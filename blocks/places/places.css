@@ -1,26 +1,28 @@
 .places {
-    padding-left: 11.56%;
-    padding-right: 11.56%;
-    margin-top: 92px;
-    box-sizing: border-box;
+  padding-left: 11.56%;
+  padding-right: 11.56%;
+  margin-top: 92px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
-    .places{
-        padding-left: 4.69%;
-        padding-right: 4.69%;
-    }
+  .places{
+    padding-left: 4.69%;
+    padding-right: 4.69%;
+  }
 }
 
 @media (max-width: 768px) {
-    .places{
-        padding-left: 3.1%;
-        padding-right: 3.1%;
-    }
+  .places{
+    padding-left: 3.1%;
+    padding-right: 3.1%;
+    margin-top: 88px;
+  }
 }
 
 @media (max-width: 631px) {
-    .places{
-        padding: 0;
-    }
+  .places{
+    padding: 0;
+    margin-top: 64px;
+  }
 }
