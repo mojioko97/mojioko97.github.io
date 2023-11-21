@@ -27,7 +27,7 @@
 }
 
 
-@media (max-width: 631px) {
+@media (max-width: 700px) {
   .place {
     display: flex;
     flex-direction: column;
